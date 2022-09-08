@@ -22,10 +22,13 @@
 
 GLuint Buffers[1];
 
-const GLuint NumVertices = 3;
+const GLuint NumVertices = 6;
 
 GLfloat vertices[NumVertices][2] = {
 		{0.0, 0.0},
+		{0.5,0.5},
+		{-0.5, 0.5},
+		{1.0, 0.0},
 		{0.5,0.5},
 		{-0.5, 0.5}
 };
