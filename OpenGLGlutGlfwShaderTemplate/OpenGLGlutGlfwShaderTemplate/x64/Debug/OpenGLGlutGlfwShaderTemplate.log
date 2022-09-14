@@ -1,2 +1,6 @@
 ﻿  testGlfwWithShader.cpp
+  prepShader.cpp
+C:\Users\Nima\Documents\GitHub\OpenGL\OpenGLGlutGlfwShaderTemplate\OpenGLGlutGlfwShaderTemplate\prepShader.cpp(16,19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   OpenGLGlutGlfwShaderTemplate.vcxproj -> C:\Users\Nima\Documents\GitHub\OpenGL\OpenGLGlutGlfwShaderTemplate\x64\Debug\OpenGLGlutGlfwShaderTemplate.exe
