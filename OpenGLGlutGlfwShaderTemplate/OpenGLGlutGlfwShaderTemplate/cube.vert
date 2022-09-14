@@ -1,14 +1,15 @@
 #version 430 core
-layout(location = 0) in vec4 vPosition;
 
-out vec4 myColor;
+layout(location = 0) in vec3 vertex_position;
+layout(location = 1) in vec3 vertex_color;
+
+out vec3 color;
+
+// Values that stay constant for the whole mesh.
+uniform mat4 model;
 
 void main()
 {
-	
-	gl_Position = vPosition;
-
+	gl_Position = model * vec4(vertex_position, 1.0);
+	color = vertex_color;
 }
-
- //  R G B
- // (x,y,z,w) | if w = 1 it is considered as position or if it is w = 0, it is direction. between 0 and 1 numbers are illustrating the transparency.
